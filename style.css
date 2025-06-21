@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Georgia', sans-serif;
+  background: linear-gradient(to bottom, #fffaf0, #ffe4cc);
+  color: #333;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+/* Header Style */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 2.8em;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+p.subtitle {
+  font-size: 1.2em;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Language Section / Button Grid */
+.language-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.language-card {
+  background: #fff;
+  padding: 20px;
+  width: 220px;
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.language-card img {
+  width: 64px;
+  height: 64px;
+}
+
+.language-name {
+  margin-top: 12px;
+  font-size: 1.3em;
+  color: #8b0000;
+}
+
+/* Story List Page Style */
+.story-list {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.story-item {
+  background-color: #fef6e4;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.05);
+}
+
+.story-item a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.story-item a:hover {
+  color: #003366;
+}
+
+/* Navigation */
+.back-home {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 1em;
+  color: #008080;
+  text-decoration: none;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .language-card {
+    width: 80%;
+  }
+
+  .story-item {
+    padding: 15px;
+  }
+}
