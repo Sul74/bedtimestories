@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bedtime-stories74.github.io/sitemap.xml
